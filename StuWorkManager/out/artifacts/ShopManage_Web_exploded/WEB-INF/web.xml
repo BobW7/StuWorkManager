@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         id="WebApp_ID" version="3.1">
+    <display-name>MyProject</display-name>
+    <!-- 设置访问系统时没有指定访问页面时默认的返回页面 -->
+    <welcome-file-list>
+        <welcome-file>index</welcome-file>
+    </welcome-file-list>
+
+
+<!--
+    <servlet>
+        <servlet-name>StudentServlet</servlet-name>
+        <servlet-class>com.demo.servlet.AuthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthServlet</servlet-name>
+        <url-pattern>/Student</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>com.demo.servlet.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/UserServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SupplierServlet</servlet-name>
+        <servlet-class>com.demo.servlet.SupplierServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SupplierServlet</servlet-name>
+        <url-pattern>/SupplierServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GoodServlet</servlet-name>
+        <servlet-class>com.demo.servlet.GoodServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GoodServlet</servlet-name>
+        <url-pattern>/GoodServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>JinghuoServlet</servlet-name>
+        <servlet-class>com.demo.servlet.JinghuoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JinghuoServlet</servlet-name>
+        <url-pattern>/JinghuoServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>KuchunServlet</servlet-name>
+        <servlet-class>com.demo.servlet.KuchunServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>KuchunServlet</servlet-name>
+        <url-pattern>/KuchunServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>XiaoshouServlet</servlet-name>
+        <servlet-class>com.demo.servlet.XiaoshouServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>XiaoshouServlet</servlet-name>
+        <url-pattern>/XiaoshouServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>NoticeServlet</servlet-name>
+        <servlet-class>com.demo.servlet.NoticeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NoticeServlet</servlet-name>
+        <url-pattern>/NoticeServlet</url-pattern>
+    </servlet-mapping>-->
+</web-app>
